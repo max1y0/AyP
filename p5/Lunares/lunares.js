@@ -5,6 +5,7 @@ function setup() {
 function draw() {
   background(20);
   
-  for (let x = 0 ; x < 600 ; x+=50)
+  for (let x = 0 ; x < 600 ; x+=50){
     ellipse(x,200,25,25)
+  }
 }
